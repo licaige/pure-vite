@@ -4,7 +4,7 @@ import utils from "@pureadmin/utils";
 import duration from "dayjs/plugin/duration";
 import { green, blue, bold } from "picocolors";
 dayjs.extend(duration);
-// 项目打包
+
 export function viteBuildInfo(): Plugin {
   let config: { command: string };
   let startTime: Dayjs;
@@ -22,7 +22,7 @@ export function viteBuildInfo(): Plugin {
           green(
             `👏欢迎使用${blue(
               "[vue-pure-admin]"
-            )}，如果您感觉不错，那就很有眼光了 `
+            )}，如果您感觉不错，记得点击后面链接给个star哦💖 https://github.com/pure-admin/vue-pure-admin`
           )
         )
       );

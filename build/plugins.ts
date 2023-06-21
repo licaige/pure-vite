@@ -1,4 +1,3 @@
-// 插件
 import { cdn } from "./cdn";
 import { resolve } from "path";
 import vue from "@vitejs/plugin-vue";

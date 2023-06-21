@@ -58,5 +58,6 @@ export const configCompressPlugin = (
       }
     }
   });
+
   return plugins;
 };

@@ -17,7 +17,7 @@
 ### 🍏 Perf
 
 - Page switching performance optimization, regardless of the network, the speed of page switching logic is almost `3-4` times faster than before [View optimization details](https://github.com/pure-admin/vue-pure-admin/pull/600#issuecomment-1586094078)
-  -Optimized tab page operation-routing parameter transfer mode usage
+-Optimized tab page operation-routing parameter transfer mode usage
 - All tables in the system management are changed to adaptive content area height, need to upgrade `@pureadmin/table` to the latest version
 - Use the `useResizeObserver` function of `vueuse` to replace the `v-resize` custom directive, and the performance will be better from the performance after testing
 - For unbound public events, unbind when the page is destroyed
